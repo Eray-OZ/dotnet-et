@@ -37,6 +37,22 @@
           }
         }
       },
+      "Swashbuckle.AspNetCore.SwaggerUI/10.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "EtApi.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -58,6 +74,19 @@
         },
         "runtime": {
           "bin/placeholder/EtApi.Domain.dll": {}
+        }
+      },
+      "EtApi.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "EtApi.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EtApi.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EtApi.Persistence.dll": {}
         }
       }
     }
@@ -99,6 +128,27 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "Swashbuckle.AspNetCore.SwaggerUI/10.2.3": {
+      "sha512": "nthWONRs/FJ4yyG206g1cC52WEG8EqrjuMWjGdR+5XG7lbjFto6NqcI9EMICgVFom/UivIjUVwI76ZHbHwTPfQ==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggerui/10.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.nuspec"
+      ]
+    },
     "EtApi.Application/1.0.0": {
       "type": "project",
       "path": "../../Core/EtApi.Application/EtApi.Application.csproj",
@@ -108,12 +158,19 @@
       "type": "project",
       "path": "../../Core/EtApi.Domain/EtApi.Domain.csproj",
       "msbuildProject": "../../Core/EtApi.Domain/EtApi.Domain.csproj"
+    },
+    "EtApi.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastructure/EtApi.Persistence/EtApi.Persistence.csproj",
+      "msbuildProject": "../../Infrastructure/EtApi.Persistence/EtApi.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "EtApi.Application >= 1.0.0",
-      "Microsoft.AspNetCore.OpenApi >= 10.0.7"
+      "EtApi.Persistence >= 1.0.0",
+      "Microsoft.AspNetCore.OpenApi >= 10.0.7",
+      "Swashbuckle.AspNetCore.SwaggerUi >= 10.2.3"
     ]
   },
   "packageFolders": {
@@ -143,6 +200,9 @@
           "projectReferences": {
             "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/EtApi.Application.csproj": {
               "projectPath": "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/EtApi.Application.csproj"
+            },
+            "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Infrastructure/EtApi.Persistence/EtApi.Persistence.csproj": {
+              "projectPath": "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Infrastructure/EtApi.Persistence/EtApi.Persistence.csproj"
             }
           }
         }
@@ -166,6 +226,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[10.0.7, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerUi": {
+            "target": "Package",
+            "version": "[10.2.3, )"
           }
         },
         "imports": [

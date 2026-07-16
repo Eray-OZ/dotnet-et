@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mzYBx6is98g=",
+  "dgSpecHash": "5E+JeHROxIk=",
   "success": true,
   "projectFilePath": "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/EtApi.API/EtApi.API.csproj",
   "expectedPackageFiles": [
     "/Users/erayoz/.nuget/packages/microsoft.aspnetcore.openapi/10.0.7/microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
-    "/Users/erayoz/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+    "/Users/erayoz/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/Users/erayoz/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.2.3/swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512"
   ],
   "logs": [
     {

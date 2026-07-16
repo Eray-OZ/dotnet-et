@@ -1,0 +1,12 @@
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Domain/bin/Debug/net10.0/EtApi.Domain.deps.json
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Domain/bin/Debug/net10.0/EtApi.Domain.dll
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Domain/bin/Debug/net10.0/EtApi.Domain.pdb
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Domain/obj/Debug/net10.0/EtApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Domain/obj/Debug/net10.0/EtApi.Domain.AssemblyInfoInputs.cache
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Domain/obj/Debug/net10.0/EtApi.Domain.AssemblyInfo.cs
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Domain/obj/Debug/net10.0/EtApi.Domain.csproj.CoreCompileInputs.cache
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Domain/obj/Debug/net10.0/EtApi.Domain.sourcelink.json
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Domain/obj/Debug/net10.0/EtApi.Domain.dll
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Domain/obj/Debug/net10.0/refint/EtApi.Domain.dll
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Domain/obj/Debug/net10.0/EtApi.Domain.pdb
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Domain/obj/Debug/net10.0/ref/EtApi.Domain.dll

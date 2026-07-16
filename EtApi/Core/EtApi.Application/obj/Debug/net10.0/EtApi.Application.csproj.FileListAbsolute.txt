@@ -1,0 +1,16 @@
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/bin/Debug/net10.0/EtApi.Application.deps.json
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/bin/Debug/net10.0/EtApi.Application.dll
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/bin/Debug/net10.0/EtApi.Application.pdb
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/bin/Debug/net10.0/EtApi.Domain.dll
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/bin/Debug/net10.0/EtApi.Domain.pdb
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/obj/Debug/net10.0/EtApi.Application.csproj.AssemblyReference.cache
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/obj/Debug/net10.0/EtApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/obj/Debug/net10.0/EtApi.Application.AssemblyInfoInputs.cache
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/obj/Debug/net10.0/EtApi.Application.AssemblyInfo.cs
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/obj/Debug/net10.0/EtApi.Application.csproj.CoreCompileInputs.cache
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/obj/Debug/net10.0/EtApi.Application.sourcelink.json
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/obj/Debug/net10.0/EtApi.Ap.916238A5.Up2Date
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/obj/Debug/net10.0/EtApi.Application.dll
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/obj/Debug/net10.0/refint/EtApi.Application.dll
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/obj/Debug/net10.0/EtApi.Application.pdb
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/obj/Debug/net10.0/ref/EtApi.Application.dll

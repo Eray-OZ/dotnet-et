@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MU2v4JuXHnU=",
+  "dgSpecHash": "wvdVhbvE5fw=",
   "success": true,
   "projectFilePath": "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Infrastructure/EtApi.Persistence/EtApi.Persistence.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/erayoz/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0/microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
