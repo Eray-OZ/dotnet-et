@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="Core/EtApi.Application/EtApi.Application.csproj" />
+    <Project Path="Core/EtApi.Domain/EtApi.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure/EtApi.Infrastructure/EtApi.Infrastructure.csproj" />
+    <Project Path="Infrastructure/EtApi.Persistence/EtApi.Persistence.csproj" />
+  </Folder>
+  <Project Path="Presentation/Presentation.csproj" />
+</Solution>
