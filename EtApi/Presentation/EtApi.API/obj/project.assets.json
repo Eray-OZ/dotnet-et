@@ -36,6 +36,29 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "EtApi.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "EtApi.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EtApi.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EtApi.Application.dll": {}
+        }
+      },
+      "EtApi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/EtApi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EtApi.Domain.dll": {}
+        }
       }
     }
   },
@@ -75,10 +98,21 @@
         "microsoft.openapi.2.0.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "EtApi.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/EtApi.Application/EtApi.Application.csproj",
+      "msbuildProject": "../../Core/EtApi.Application/EtApi.Application.csproj"
+    },
+    "EtApi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/EtApi.Domain/EtApi.Domain.csproj",
+      "msbuildProject": "../../Core/EtApi.Domain/EtApi.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "EtApi.Application >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.7"
     ]
   },
@@ -88,11 +122,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/Presentation.csproj",
-      "projectName": "Presentation",
-      "projectPath": "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/Presentation.csproj",
+      "projectUniqueName": "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/EtApi.API/EtApi.API.csproj",
+      "projectName": "EtApi.API",
+      "projectPath": "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/EtApi.API/EtApi.API.csproj",
       "packagesPath": "/Users/erayoz/.nuget/packages/",
-      "outputPath": "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/obj/",
+      "outputPath": "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/EtApi.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/erayoz/.nuget/NuGet/NuGet.Config"
@@ -106,7 +140,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/EtApi.Application.csproj": {
+              "projectPath": "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/EtApi.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

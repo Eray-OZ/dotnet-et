@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EtApi.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8f5a96230f45e3f260c848727480a7d8fc10935")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+044dffbbb615680bd059a6c6add4211d1a1dae3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EtApi.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EtApi.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

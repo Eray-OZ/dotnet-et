@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "EtApi.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "EtApi.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EtApi.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EtApi.Application.dll": {}
+        }
+      },
+      "EtApi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/EtApi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EtApi.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EtApi.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/EtApi.Application/EtApi.Application.csproj",
+      "msbuildProject": "../../Core/EtApi.Application/EtApi.Application.csproj"
+    },
+    "EtApi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/EtApi.Domain/EtApi.Domain.csproj",
+      "msbuildProject": "../../Core/EtApi.Domain/EtApi.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "EtApi.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/erayoz/.nuget/packages/": {}
@@ -31,7 +68,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/EtApi.Application.csproj": {
+              "projectPath": "/Users/erayoz/Codes/dotnet-yıldız/EtApi/Core/EtApi.Application/EtApi.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

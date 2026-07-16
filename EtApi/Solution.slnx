@@ -7,5 +7,7 @@
     <Project Path="Infrastructure/EtApi.Infrastructure/EtApi.Infrastructure.csproj" />
     <Project Path="Infrastructure/EtApi.Persistence/EtApi.Persistence.csproj" />
   </Folder>
-  <Project Path="Presentation/Presentation.csproj" />
+  <Folder Name="/Presentation/">
+    <Project Path="Presentation/EtApi.API/EtApi.API.csproj" />
+  </Folder>
 </Solution>
