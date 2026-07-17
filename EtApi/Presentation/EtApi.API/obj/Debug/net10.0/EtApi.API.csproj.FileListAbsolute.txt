@@ -39,3 +39,8 @@
 /Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/EtApi.API/obj/Debug/net10.0/EtApi.API.genruntimeconfig.cache
 /Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/EtApi.API/obj/Debug/net10.0/ref/EtApi.API.dll
 /Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/EtApi.API/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/EtApi.API/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/EtApi.API/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/EtApi.API/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/EtApi.API/bin/Debug/net10.0/MySqlConnector.dll
+/Users/erayoz/Codes/dotnet-yıldız/EtApi/Presentation/EtApi.API/bin/Debug/net10.0/Pomelo.EntityFrameworkCore.MySql.dll
