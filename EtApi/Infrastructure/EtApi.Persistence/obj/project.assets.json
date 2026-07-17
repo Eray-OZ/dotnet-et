@@ -937,7 +937,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "EtApi.Domain": "1.0.0"
+          "EtApi.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.0"
         },
         "compile": {
           "bin/placeholder/EtApi.Application.dll": {}
