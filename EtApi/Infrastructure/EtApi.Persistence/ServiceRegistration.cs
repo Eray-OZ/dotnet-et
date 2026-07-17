@@ -10,7 +10,7 @@ public static class ServiceRegistration
 {
     public static void AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
     {
-        var connectionString = configuration.GetConnectionString("DefaultConnection");
+        var connectionString = Configuration.ConnectionString;
         services.AddDbContext<EtApiDbContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
     }
     

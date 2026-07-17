@@ -9,7 +9,9 @@ public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<EtApiDbCon
     public EtApiDbContext CreateDbContext(string[] arg)
     {
 
-        var connectionString = "server=localhost;port=3306;database=EtApiDb;user=root;password=;";
+
+
+        var connectionString = Configuration.ConnectionString;
 
         DbContextOptionsBuilder<EtApiDbContext> dbContextOptionsBuilder = new();
         dbContextOptionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EtApi.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86294f4be0b19b50ba406b2225439d7502a835e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11a2866a8abd35df54df6961df3653c2be7d33ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("EtApi.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EtApi.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
