@@ -1,4 +1,5 @@
 using EtApi.Application;
+using EtApi.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,22 +21,24 @@ namespace EtApi.API.Controllers
 
 
         [HttpGet]
-        public async Task Write()
+        public async Task Get()
         {
-            await _productWriteRepository.AddRangeAsync(new()
-            {
-                new() {Id = Guid.NewGuid(), Name = "Product 4", Price = 400, CreatedDate=DateTime.Now, Stock=40},
-                new() {Id = Guid.NewGuid(), Name = "Product 5", Price = 500, CreatedDate=DateTime.Now, Stock=50},
-                new() {Id = Guid.NewGuid(), Name = "Product 6", Price = 600, CreatedDate=DateTime.Now, Stock=60},
-
-            });
-
-
+            Product p = await _productReadRepository.GetByIdAsync("bd90d00e-7725-4dd0-9359-26924d8c0a44", false);
+            p.Name = "Product 001";
             await _productWriteRepository.SaveAsync();
-
-
-
         }
+
+
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(string id)
+        {
+            Product p = await _productReadRepository.GetByIdAsync(id);
+            return Ok(p);
+        }
+
+
+
 
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EtApi.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f065214fed46f0e61758f02d6f8460436c3897ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b3153888eda8caf2d00cb010e9e393726c57468")]
 [assembly: System.Reflection.AssemblyProductAttribute("EtApi.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EtApi.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

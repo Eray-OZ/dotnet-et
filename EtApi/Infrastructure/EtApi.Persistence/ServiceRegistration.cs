@@ -13,8 +13,7 @@ public static class ServiceRegistration
     public static void AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
     {
         var connectionString = Configuration.ConnectionString;
-        services.AddDbContext<EtApiDbContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
-        ,ServiceLifetime.Singleton);
+        services.AddDbContext<EtApiDbContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
         services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
         services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
