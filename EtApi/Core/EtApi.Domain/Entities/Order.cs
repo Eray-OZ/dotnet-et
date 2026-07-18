@@ -4,7 +4,7 @@ namespace EtApi.Domain.Entities;
 
 public class Order : BaseEntity
 {
-    public int CustomerId { get; set; }
+    public Guid CustomerId { get; set; }
     public required string Description { get; set; }
     public required string Address { get; set; }
     public ICollection<Product> Products { get; set; }

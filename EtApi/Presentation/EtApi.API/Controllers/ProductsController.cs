@@ -1,5 +1,6 @@
 using EtApi.Application;
 using EtApi.Domain.Entities;
+using EtApi.Persistence.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,33 +10,40 @@ namespace EtApi.API.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
- 
+
+        readonly private ICustomerWriteRepository _customerWriteRepository;
+        readonly private IOrderWriteRepository _orderWriteRepository;
         readonly private IProductWriteRepository _productWriteRepository;
         readonly private IProductReadRepository _productReadRepository;
 
-        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository)
+        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IOrderWriteRepository orderWriteRepository, ICustomerWriteRepository customerWriteRepository)
         {
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
+            _orderWriteRepository = orderWriteRepository;
+            _customerWriteRepository = customerWriteRepository;
         }
 
 
         [HttpGet]
         public async Task Get()
         {
-            Product p = await _productReadRepository.GetByIdAsync("bd90d00e-7725-4dd0-9359-26924d8c0a44", false);
-            p.Name = "Product 001";
+            var customerId = Guid.NewGuid();
+            await _customerWriteRepository.AddAsync(new() {Id=customerId, Name="Name 1"});
+            await _orderWriteRepository.AddAsync(new() {Description="This is a desc", Address="Balıkesir, Bandırma", CustomerId=customerId});
+            await _orderWriteRepository.AddAsync(new() {Description="Desc is a this", Address="Balıkesir, Erdek", CustomerId=customerId});
+            await _orderWriteRepository.SaveAsync();
+
+        }
+
+        [HttpGet("Id")]
+        public async Task Get(string id)
+        {
+            var product = await _productReadRepository.GetByIdAsync(id);
+            product.Name = "Test Product";
             await _productWriteRepository.SaveAsync();
         }
 
-
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> Get(string id)
-        {
-            Product p = await _productReadRepository.GetByIdAsync(id);
-            return Ok(p);
-        }
 
 
 
